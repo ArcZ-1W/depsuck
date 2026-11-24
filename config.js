@@ -12,9 +12,9 @@ window.XOZEN = {
   // desc = deskripsi singkat di landing
   models: [
     { name: "Xozen Flash",         real: "mimo-v2.5-pro",                times: 1,   premium: false, desc: "Cepat dan hemat. Cocok untuk tanya jawab harian." },
-    { name: "Xozen Pro", real: "deepseek-v4.1-flash",          times: 1.5, premium: false, desc: "Model premium untuk tugas panjang dan rumit." },
-    { name: "Xozen Magnesium 2.0", real: "deepseek-v4.1-flash-1017", times: 2,   premium: false, desc: "Lebih teliti untuk tulisan, ringkasan, dan kode ringan." },
-    { name: "Xozen Titanium",      real: "glm-5.3-flash-mod",            times: 3.5, premium: true,  desc: "Model untuk tugas berat." },
+    { name: "Xozen Pro", real: "deepseek-v4.1-flash",          times: 1.5, premium: false, hidden: true, desc: "Model premium untuk tugas panjang dan rumit." },
+    { name: "Xozen Magnesium 2.0", real: "deepseek-v4.1-flash-1017", times: 2,   premium: false, hidden: true,desc: "Lebih teliti untuk tulisan, ringkasan, dan kode ringan." },
+    { name: "Xozen Titanium",      real: "glm-5.3-flash-mod",            times: 3.5, premium: true,desc: "Model untuk tugas berat." },
     { name: "Xozen Lithium 3.0",   real: "gemini-4-argon",               times: 25,  premium: false, hidden: true, desc: "Model khusus admin untuk tugas panjang dan rumit." }
   ],
 
