@@ -24,7 +24,7 @@ window.XOZEN = {
 
   // Saldo xoz (hanya untuk tampilan landing, hitungan asli di server)
   xoz: {
-    INITIAL: 5000,    // bonus sekali saat daftar
+    INITIAL: 3000,    // bonus sekali saat daftar
     DAILY: 1500,      // jatah harian, terisi lagi sampai batas ini
     PREMIUM: 10000,   // bonus saat premium pertama kali diaktifkan
     // pesan di bawah max huruf (termasuk spasi): base + acak(lo..hi), lalu x times model
