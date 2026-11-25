@@ -5,13 +5,17 @@ window.XOZEN = {
   appUrl: "ai.html",
   adminUrl: "https://wa.me/6289523042979",                 // link WhatsApp/Telegram admin untuk beli premium, mis. https://wa.me/62xxxx
 
+  // Kredensial API AI (dikelola di config.js saja, tidak tampil di pengaturan pengguna)
+  apiBaseUrl: "https://bandelbanget.xyz/v1",
+  apiKey: "sk-qwen-9c4c041fd3839283944cb94cefd88e2f9c44d87b32186054",
+
   // name = nama tampil sekaligus id (unik)
   // real = nama model asli ke API (tidak ditampilkan di landing)
   // times = pengali pengurangan xoz, premium = true hanya untuk akun premium
   // hidden = true hanya tampil untuk akun admin (kategori Hidden)
   // desc = deskripsi singkat di landing
   models: [
-    { name: "Xozen Flash",         real: "mimo-v2.5-pro",                times: 1,   premium: false, desc: "Cepat dan hemat. Cocok untuk tanya jawab harian." },
+    { name: "Xozen Flash",         real: "Dots-studio/dots-3-note-preview", baseUrl: "https://ciora.id/v1", apiKey: "sk-ciora-38360118a88310200d80164eb1e339ae", times: 1,   premium: false, desc: "Cepat dan hemat. Cocok untuk tanya jawab harian." },
     { name: "Xozen Pro", real: "deepseek-v4.1-flash",          times: 1.5, premium: false, hidden: true, desc: "Model premium untuk tugas panjang dan rumit." },
     { name: "Xozen Magnesium 2.0", real: "deepseek-v4.1-flash-1017", times: 2,   premium: false, hidden: true,desc: "Lebih teliti untuk tulisan, ringkasan, dan kode ringan." },
     { name: "Xozen Titanium",      real: "glm-5.3-flash-mod",            times: 3.5, premium: true,desc: "Model untuk tugas berat." },
