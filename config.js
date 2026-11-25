@@ -7,7 +7,7 @@ window.XOZEN = {
 
   // Kredensial API AI (dikelola di config.js saja, tidak tampil di pengaturan pengguna)
   apiBaseUrl: "https://bandelbanget.xyz/v1",
-  apiKey: "sk-qwen-9c4c041fd3839283944cb94cefd88e2f9c44d87b32186054",
+  apiKey: "sk-qwen-0bbc0ee57721a6ea1ed5ef25025c2e679cfda2abeafae303",
 
   // name = nama tampil sekaligus id (unik)
   // real = nama model asli ke API (tidak ditampilkan di landing)
